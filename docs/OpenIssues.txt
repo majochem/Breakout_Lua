@@ -1,0 +1,25 @@
+Bugs
+- Ball still glitches through bricks occasionally
+- surplus speed for fist move after resize?
+- Level up prevented by indestructable bricks
+
+
+Features
+- Save high score in file
+- settings
+- save menu
+- leaderboard
+- increase bg_music speed with level?
+
+Kinda done
+- keyboard menu navigation
+- smoother level transition
+- save game states in file (SQL?)
+
+Done
+- screen resize --> transfer screen size adjustments to draw functions only
+- rounding coordinates for scaling (in every draw function)
+- ball acceleration
+- smoother paddle controls
+- pause state
+- hint messages (press space)

@@ -1,0 +1,138 @@
+{
+    "default": {
+      "font_size": "p1",
+      "font_highlight": true,
+      "font_color": { "r": 0.8, "g": 0.8, "b": 0.8 },
+      "font_color_highlight": { "r": 1.0, "g": 0, "b": 0 },
+      "fill": false,
+      "fill_highlight": false,
+      "fill_color": { "r": 0.2, "g": 0.2, "b": 0.2 },
+      "fill_color_highlight": { "r": 0.866, "g": 0.866, "b": 0.866 },
+      "outline": false,
+      "outline_highlight": false,
+      "outline_color": { "r": 0.8, "g": 0.8, "b": 0.8 },
+      "outline_color_highlight": { "r": 0.866, "g": 0, "b": 0 },
+      "outline_strength": 1,
+      "outline_strength_highlight": 2,
+      "h_align": "center",
+      "v_align": "middle",
+      
+      
+      "header": {
+        "font_size": "h1",
+        "font_color": { "r": 1.0, "g": 1.0, "b": 1.0 },
+        "outline": false
+        
+      },
+      "footer": {
+        "font_size": "h3",
+        "font_color": { "r": 0.8, "g": 0.8, "b": 0.8 },
+        "outline": true,
+        "outline_highlight":true
+        
+      },
+      "tab": {
+        "font_size": "h3",
+        "outline": true,
+        "fill_highlight": true,
+        "outline_highlight":true
+        
+      },
+      "tab_entry": {
+        "font_size": "h4",
+        "font_highlight":true,
+        "font_color_highlight": { "r": 1, "g": 1, "b": 1 },
+        "outline": true,
+        "outline_highlight": true,
+        "outline_color_highlight": { "r": 1, "g": 0, "b": 0 },
+        "fill_highlight": true,
+        "fill_color_highlight":{ "r": 0.5, "g": 0.5, "b": 0.5 }
+        
+      },
+      "column": {
+        "font_size": "h3",
+        "outline": true,
+        "outline_color": { "r": 0.5, "g": 0.5, "b": 0.5 }
+      },
+      "column_entry_main": {
+        "font_size": "h3",
+        "h_align":"center"
+        
+      },
+      "column_entry": {
+        "font_size": "h4",
+        "h_align":"left"
+        
+      },
+      "button": {
+        "font_size": "h5",
+        "fill_color": { "r": 0.8, "g": 0.8, "b": 0.8 },
+        "outline": true,
+        "outline_highlight":true
+      },
+      "text_box": {
+        "font_size": "p1",
+        "fill": true,
+        "outline": false,
+        "outline_color": { "r": 0.4, "g": 0.4, "b": 0.4 }
+      },
+      "stat_display": {
+        "font_size": "h4",
+        "fill": false,
+        "outline": false,
+        "font_highlight":false,
+        "h_align":"left"
+      },
+      "screen_msg": {
+        "font_size": "x1",
+        "fill": false,
+        "outline": false,
+        "font_color":{ "r": 1, "g": 1, "b": 1 } ,
+        "font_highlight": false,
+        "h_align": "center",
+        "v_align": "middle"
+      },
+      "screen_sub_msg": {
+        "font_size": "h4",
+        "fill": false,
+        "outline": false,
+        "font_color":{ "r": 1, "g": 1, "b": 1 } ,
+        "font_highlight": false,
+        "h_align": "center",
+        "v_align": "middle"
+      },
+      "player": {
+        "outline": true,
+        "outline_color":{ "r": 1, "g": 1, "b": 1 } ,
+        "fill": true,
+        "fill_color": { "r": 0.5, "g": 0.5, "b": 0.5 }
+
+      },
+      "play_area": {
+        "outline_strength": 3
+      },
+      "default":{}
+    },
+    "themes": {
+      "light": {
+        "font_color": { "r": 0.0, "g": 0.0, "b": 0.0 },
+        "header": {
+          "font_color": { "r": 0.1, "g": 0.1, "b": 0.1 }
+        },
+        "button": {
+          "fill_color": { "r": 0.9, "g": 0.9, "b": 0.9 }
+        }
+      },
+      "dark": {
+        "font_color": { "r": 1.0, "g": 1.0, "b": 1.0 },
+        "header": {
+          "font_color": { "r": 0.8, "g": 0.8, "b": 0.8 }
+        },
+        "text_box": {
+          "fill_color": { "r": 0.2, "g": 0.2, "b": 0.2 },
+          "font_color": { "r": 0.9, "g": 0.9, "b": 0.9 }
+        }
+      }
+    }
+  }
+  
