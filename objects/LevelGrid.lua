@@ -100,8 +100,13 @@ LevelGrid = function (player)
             for i = 1, self.max_row do
                 if not (self.grid[i] == nil) then
                     for j = 1, max_col do
-                        if not (self.grid[i][j] == nil) then 
-                            return false -- this should only happen if there is a brick left
+                        if not (self.grid[i][j] == nil) then -- brick exists
+
+                            if self.grid[i][j].destructable then -- can actually be destroyed
+                                return false -- this should only happen if there is a destructable brick left
+                                
+                            end
+
                         end
                     end
                 end
