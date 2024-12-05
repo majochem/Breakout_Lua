@@ -22,6 +22,22 @@
 ## Requirements
 - [Love2D](https://love2d.org/) must be installed to run the game.
 - Additional dependencies: SQLite3 and lunajson.
+  
+### Dependencies
+
+This repository includes the following third-party libraries:
+
+- **SQLite3**: Used for managing save data.  
+  Source: [SQLite](https://sqlite.org/)  
+  License: [Public Domain](https://sqlite.org/copyright.html)
+
+- **lunajson**: A lightweight JSON library for Lua.  
+  Source: [GitHub](https://github.com/grafi-tt/lunajson)  
+  License: MIT License  
+
+These libraries are bundled in the repository for convenience. Their respective licenses allow redistribution and usage. Please refer to their documentation for more details.
+
+
 
 ## How to Play
 1. Clone the repository:
@@ -36,20 +52,6 @@
 - **[Love2D](https://love2d.org/)**: A 2D game framework. 
 - **[SQLite3](https://www.sqlite.org/)**: For managing save data. 
 - **[lunajson](https://github.com/grafi-tt/lunajson)**: To handle JSON-based high-score tracking.
-
-### Dependencies
-
-This repository includes the following third-party libraries:
-
-- **SQLite3**: Used for managing save data.  
-  Source: [SQLite](https://sqlite.org/)  
-  License: [Public Domain](https://sqlite.org/copyright.html)
-
-- **lunajson**: A lightweight JSON library for Lua.  
-  Source: [GitHub](https://github.com/grafi-tt/lunajson)  
-  License: MIT License  
-
-These libraries are bundled in the repository for convenience. Their respective licenses allow redistribution and usage. Please refer to their documentation for more details.
 
 
 
