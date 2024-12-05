@@ -260,7 +260,7 @@ function love.mousepressed(x, y, button, istouch, presses)
     end
 end
 
--- Draw the circle to the screen
+--#region Draw
 function love.draw()
 
     -- bundling of function packages (maybe not smart to have this inside "draw" as it will be constantly overwritten)
@@ -302,3 +302,5 @@ function love.draw()
     
 
 end
+
+--endregion Draw
